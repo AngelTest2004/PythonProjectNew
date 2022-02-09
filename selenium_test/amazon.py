@@ -20,6 +20,7 @@ class cs():
         __element = self.driver.find_element(By.XPATH, "//input[@id='twotabsearchtextbox']")
         __element.send_keys("amazon")
         self.driver.find_element(By.XPATH, "//input[@id='nav-search-submit-button']").click()
+        #coment
         elements = self.driver.find_element(By.XPATH, '//div[contains(@data-cel-widget,"search_result_")]')
 
 
